@@ -7,7 +7,6 @@ import Showcase from '../components/showcase';
 function Homepage() {
     return (
         <div class="homepage">
-            <Navbar />
             <div class="content" >
                 <div class="hero">
                     <img src="/image/cyiprLogo.png" alt="CYIPR Logo" className="logo" />
