@@ -1,0 +1,18 @@
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.trade-card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

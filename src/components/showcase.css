@@ -1,0 +1,52 @@
+.showcase {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+
+/* Horizontal infinite reel */
+.showcase .reel {
+    /* Tune these variables as needed */
+    --speed: 10s; /* lower = faster */
+    display: flex;
+    width: max-content;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: 35vh;
+    
+    /* Continuous leftward scroll */
+    animation: showcase-marquee var(--speed) linear infinite;
+    will-change: transform;
+}
+
+.showcase img {
+    flex: 0 0 auto;
+    height: 20vh;
+    width: auto;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+/* Keyframes: move the track left by 50% — requires DOM to be duplicated once */
+@keyframes showcase-marquee {
+    from { transform: translateX(0%); }
+    to   { transform: translateX(-50%); }
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .showcase .reel {
+        animation: none;
+    }
+}
