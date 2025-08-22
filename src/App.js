@@ -6,10 +6,10 @@ import Tradepage from './page/tradepage.jsx';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/cyipr-web">
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/trade" element={<Tradepage />} />
+          <Route path="/cyipr-web/" element={<Homepage />} />
+          <Route path="/cyipr-web/trade" element={<Tradepage />} />
         </Routes>
       </BrowserRouter>
     </div>
