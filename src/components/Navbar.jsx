@@ -12,8 +12,8 @@ function Navbar() {
                 <AiOutlineBars />
             </div>
             <ul className={`navLinks ${menuOpen ? 'open' : ''}`}>
-                <li><a href="/" className='link'>首頁</a></li>
-                <li><a href="/trade" className='link'>商標申請</a></li>
+                <li><a href="/cyipr-web" className='link'>首頁</a></li>
+                <li><a href="/cyipr-web/trade" className='link'>商標申請</a></li>
                 <li><a href="/PO" className='link'>各國專利局</a></li>
                 <li><a href="/example" className='link'>客戶案例</a></li>
                 <li><a href="/comment" className='link'>留言中心</a></li>

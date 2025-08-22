@@ -9,6 +9,7 @@
     position: relative;
     color: white;
     display: flex;
+    box-shadow: 10px 10px rgba(0, 0, 0, 1);
     align-items: center;
     justify-content: center;
 }
