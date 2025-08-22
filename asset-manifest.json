@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cyipr-web/static/css/main.02dee11a.css",
+    "main.css": "/cyipr-web/static/css/main.5dffce4d.css",
     "main.js": "/cyipr-web/static/js/main.5bec7060.js",
     "index.html": "/cyipr-web/index.html",
-    "main.02dee11a.css.map": "/cyipr-web/static/css/main.02dee11a.css.map",
+    "main.5dffce4d.css.map": "/cyipr-web/static/css/main.5dffce4d.css.map",
     "main.5bec7060.js.map": "/cyipr-web/static/js/main.5bec7060.js.map"
   },
   "entrypoints": [
-    "static/css/main.02dee11a.css",
+    "static/css/main.5dffce4d.css",
     "static/js/main.5bec7060.js"
   ]
 }
