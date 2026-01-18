@@ -7,7 +7,7 @@ import CommentPage from './page/commentPage.jsx';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/cyipr-web'>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/trade" element={<Tradepage />} />
