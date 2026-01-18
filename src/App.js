@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/cyipr-web/" element={<Homepage />} />
-          <Route path="/cyipr-web/trade" element={<Tradepage />} />
-          <Route path="/cyipr-web/comment" element={<CommentPage/>} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/trade" element={<Tradepage />} />
+          <Route path="/comment" element={<CommentPage/>} />
         </Routes>
       </BrowserRouter>
     </div>
