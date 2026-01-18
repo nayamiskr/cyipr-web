@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <nav className='nav'>
-            <img src="/cyipr-web/image/logo.png" alt="Logo" className="logo" />
+            <img src="/image/logo.png" alt="Logo" className="logo" />
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)} >
                 <AiOutlineBars />
             </div>

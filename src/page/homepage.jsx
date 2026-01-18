@@ -10,7 +10,7 @@ function Homepage() {
             <Navbar />
             <div class="content" >
                 <div class="hero">
-                    <img src="/cyipr-web/image/cyiprLogo.png" alt="CYIPR Logo" className="logo" />
+                    <img src="/image/cyiprLogo.png" alt="CYIPR Logo" className="logo" />
                     <div className="hero-text">
                         <h1 style={{ fontSize: '56px' }}>歡迎來到長盈商標事務所</h1>
                         <p>智慧  就是力量</p>
