@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <nav className='nav'>
-            <img src="/image/logo.png" alt="Logo" className="logo" />
+            <img src="/cyipr-web/image/logo.png" alt="Logo" className="logo" />
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)} >
                 <AiOutlineBars />
             </div>
@@ -16,7 +16,7 @@ function Navbar() {
                 <li><a href="/cyipr-web/trade" className='link'>商標申請</a></li>
                 <li><a href="/PO" className='link'>各國專利局</a></li>
                 <li><a href="/example" className='link'>客戶案例</a></li>
-                <li><a href="/comment" className='link'>留言中心</a></li>
+                <li><a href="/cyipr-web/comment" className='link'>留言中心</a></li>
             </ul>
         </nav>
     );

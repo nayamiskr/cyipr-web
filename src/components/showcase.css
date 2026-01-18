@@ -15,7 +15,7 @@ h1 {
 /* Horizontal infinite reel */
 .showcase .reel {
     /* Tune these variables as needed */
-    --speed: 10s; /* lower = faster */
+    --speed: 20s; /* lower = faster */
     display: flex;
     width: max-content;
     flex-wrap: nowrap;

@@ -39,12 +39,12 @@ function Showcase() {
             </h1>
             <div className='reel'>
                 {reel1.map((src, index) => (
-                    <img src={src} alt={`Case ${index + 1}`} loading='lazy' />
+                    <img src={"/cyipr-web" + src} alt={`Case ${index + 1}`} loading='lazy' />
                 ))}
             </div>
             <div className='reel'>
                 {reel2.map((src, index) => (
-                    <img src={src} alt={`Case ${index + 1}`} loading='lazy'/>
+                    <img src={"/cyipr-web" + src} alt={`Case ${index + 1}`} loading='lazy'/>
                 ))}
             </div>
         </div>
