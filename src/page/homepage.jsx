@@ -9,6 +9,10 @@ function Homepage() {
         <div class="homepage">
             <Navbar />
             <div class="content" >
+                <div className="case-share">
+                    <Showcase />
+                </div>
+                
                 <div class="hero">
                     <img src="/image/cyiprLogo.png" alt="CYIPR Logo" className="logo" />
                     <div className="hero-text">
@@ -29,9 +33,7 @@ function Homepage() {
                     </div>
                 </div>
 
-                <div className="case-share">
-                    <Showcase />
-                </div>
+                
 
                 <h3>歡迎聯絡我們一同守護您的招牌</h3>
                 <div className="contact">
