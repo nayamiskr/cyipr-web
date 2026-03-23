@@ -32,9 +32,10 @@ h1 {
     height: 10vh;
     width: auto;
     padding: 5px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
     display: block;
+    background-color: aliceblue;
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
