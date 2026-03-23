@@ -20,7 +20,7 @@ h1 {
     width: max-content;
     flex-wrap: nowrap;
     gap: 20px;
-    height: 35vh;
+    height: 20vh;
     
     /* Continuous leftward scroll */
     animation: showcase-marquee var(--speed) linear infinite;
@@ -29,7 +29,7 @@ h1 {
 
 .showcase img {
     flex: 0 0 auto;
-    height: 20vh;
+    height: 10vh;
     width: auto;
     padding: 5px;
     object-fit: cover;
