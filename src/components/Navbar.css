@@ -56,9 +56,10 @@
 
 .menu {
     display: none;
-    height: 70px;
-    width: 70px;
-    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    font-size: 25px;
     background-color: #03c0f9;
     border: oldlace 1px solid;
     border-radius: 10px;
@@ -93,4 +94,11 @@
     background-color: rgba(17, 69, 238, 0.66);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   }
+
+  .logo {
+    border-radius: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+}
 }
