@@ -1,6 +1,6 @@
 import './style.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './page/homepage.jsx';
+import PatentOfficePage from './page/patentOfficePage.jsx';
 import Tradepage from './page/tradepage.jsx';
 import CommentPage from './page/commentPage.jsx';
 import WelcomePage from './page/welcomePage.jsx';
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<WelcomePage />} />
-          <Route path="/home" element={<Homepage />} />
+          <Route path="/PO" element={<PatentOfficePage />} />
           <Route path="/trade" element={<Tradepage />} />
           <Route path="/comment" element={<CommentPage/>} />
         </Routes>

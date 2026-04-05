@@ -1,0 +1,44 @@
+.content {
+    margin-top: 180px;
+    padding: 0px 75px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-front img {
+    height: 150px;
+    width: auto;
+    object-fit: cover;
+}
+
+.back span {
+    width: 100%;
+    height: 100%;
+}
+
+.card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; 
+    color: white; 
+    padding: 30px; 
+    box-sizing: border-box;
+}
+

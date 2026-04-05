@@ -1,9 +1,5 @@
-
-.title {
-    
-}
-
 .trade-card-section {
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;

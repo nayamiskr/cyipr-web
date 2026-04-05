@@ -9,11 +9,11 @@ export default function ContactSection() {
             <div className="contact">
                 <a href="https://www.facebook.com/cyipradmin" className="facebook">
                     <FaFacebookF />
-                    <span>長盈國際商標事務所</span>
+                    <span>長盈商標事務所</span>
                 </a>
                 <a href="https://maps.app.goo.gl/anSdNEhuFND86ZCR7" className="map">
                     <FaMapMarkerAlt />
-                    <span>長盈國際商標事務所</span>
+                    <span>長盈商標事務所</span>
                 </a>
                 <a href="tel:0910767899" className="phone">
                     <FaPhoneAlt />

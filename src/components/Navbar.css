@@ -7,7 +7,6 @@
     color: #fff;
     border-radius: 15px;
     width: 90%;
-    height: 90px;
     position: fixed;
     box-shadow: 10px 10px rgba(0, 0, 0, 1);
     top: 20px;
@@ -38,7 +37,7 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
     justify-content: center;
     align-items: center;
     background-color: transparent;
