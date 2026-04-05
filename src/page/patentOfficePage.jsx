@@ -1,8 +1,5 @@
 import './patentOfficePage.css';
 import Navbar from "../components/Navbar";
-import { FaFacebookF, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import Showcase from '../components/showcase';
 import FilpCard from '../components/filpCard';
 
 export default function PatentOfficePage() {
@@ -35,8 +32,8 @@ export default function PatentOfficePage() {
         },
         {
             label: "美國專利商標局",
-            pic: "/image/PO/CNPI.png",
-            link: "http://www.cnipa.gov.cn/"    
+            pic: "/image/PO/USPTO.png",
+            link: "http://www.uspto.gov/"    
         }   
     ]
 
