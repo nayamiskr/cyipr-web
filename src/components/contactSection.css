@@ -1,5 +1,9 @@
 .contact {
     display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 20px;

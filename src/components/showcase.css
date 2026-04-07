@@ -1,13 +1,14 @@
 .showcase {
-    height: 60vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
     overflow: hidden;
 }
 
+
 h1 {
-    margin-bottom: 0%;
+    margin: 0;
 }
 
 

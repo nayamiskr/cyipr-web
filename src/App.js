@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PatentOfficePage from './page/patentOfficePage.jsx';
 import Tradepage from './page/tradepage.jsx';
 import CommentPage from './page/commentPage.jsx';
-import WelcomePage from './page/welcomePage.jsx';
+import WelcomePage from './page/home/welcomePage.jsx';
 
 function App() {
   return (
